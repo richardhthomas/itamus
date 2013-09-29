@@ -116,8 +116,6 @@ echo "<div id='headerright'><div id='headercount'><span>" . $numlinks['linkcount
 </form>
 </div>";
 
-/*
-
 // set $doty to be the day of the year
 $doty = idate("z");
 
@@ -174,10 +172,9 @@ echo "<div id='lotdtab'>
 
 echo "</table></div>";
 
-*/
-
 ?>
 
+<!--
 <div id='msfad'>
 <table>
 	<tr>
@@ -190,7 +187,7 @@ echo "</table></div>";
 	</tr>
 </table>
 </div>
-
+-->
 
 <div id="block1">
 <div class="title">
