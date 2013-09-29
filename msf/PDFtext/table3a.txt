@@ -1,0 +1,12 @@
+2;Doctors;Registered Nurses;Health Visitors / Midwives;
+;q23dr;q23rn;q23hv;
+2;in training grades;;;
+;q23ay;;;
+2;Pharmacists;Administrators / Receptionists /;Allied Healthcare Professionals;
+;q23ph;;;
+2;;Secretaries;;
+;;q23ad;q23ah;
+2;Health Care Assistants;Non-clinical Managers;Others;
+;q23hc;q23nm;q23ot;
+2;;;;
+;;;q23ott;

@@ -1,0 +1,4 @@
+1;Current colleague;Within the last 2 years;Between 2 and 5 years ago;
+;q24c;q242;q245;
+1;Between 6 and 10 years ago;More than 10 years ago;;
+;q2410;q24++;;

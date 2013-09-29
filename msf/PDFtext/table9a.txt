@@ -1,0 +1,2 @@
+1;This doctor is fit to practise medicine;Yes;No;Don't know;
+;;q19y;q19n;q19dk;
