@@ -121,12 +121,13 @@ $doty = idate("z");
 
 // set $lotd to be the modulus (left over) when day of the year is divided by the number of links
 $lotd = fmod($doty,$numlinks['linkcount']);
+$lotd_adminium = (($lotd-1)*10)+1 // this corrects for adminiums id's incrementing by 10 each time, rather than by 1
 
-// get the row from the links database with a link_id number equal to $lotd. If this is blank then add 1 to $lotd and try again until it contains something
+// get the row from the links database with a id number equal to $lotd. If this is blank then add 1 to $lotd and try again until it contains something
 
 do
 {
-$query = "SELECT link_name,link_destination,description,link_type,status FROM links_db WHERE link_id=" . $lotd;
+$query = "SELECT link_name,link_destination,description,link_type,status FROM links_db WHERE id=" . $lotd_adminium;
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
 $lotd++;

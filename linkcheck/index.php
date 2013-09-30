@@ -18,7 +18,7 @@
 // Connect to database
 include 'dbconnect.php';
 
-$query = "SELECT link_id,link_name,link_destination,status FROM links_db";
+$query = "SELECT id,link_name,link_destination,status FROM links_db";
 
 $result = mysql_query($query);
 
@@ -26,7 +26,7 @@ mysql_close($con);
 
 while($row = mysql_fetch_array($result))
   {
-  echo "<li><a href='" . $row['link_destination'] . "'>" . $row['status'] . " " . $row['link_id'] . " " . $row['link_name'] . "</a></li>";
+  echo "<li><a href='" . $row['link_destination'] . "'>" . $row['status'] . " " . $row['id'] . " " . $row['link_name'] . "</a></li>";
   }
 
 
