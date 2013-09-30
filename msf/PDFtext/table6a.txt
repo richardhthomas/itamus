@@ -1,2 +1,0 @@
-1;Most days;Weekly;Monthly;Less often;
-;q25md;q25w;q25mo;q25lo;
