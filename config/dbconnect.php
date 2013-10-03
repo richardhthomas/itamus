@@ -7,7 +7,10 @@
     $db = substr($url["path"],1);
 
     $con = mysql_connect($server, $username, $password);
-	$con;
+	if (!$con)
+	{
+	echo "Sorry - database is temporarily unavailable.";
+	}
     
     mysql_select_db($db);
 ?>

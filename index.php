@@ -134,7 +134,7 @@ $lotd++;
 }
 while ($row['link_name']=="" OR $row['status']!="");
 
-//mysql_close($con);
+mysql_close($con);
 
 if ($row['link_type']=="clinical_info")
 	{
