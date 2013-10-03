@@ -10,7 +10,7 @@
 	
 	if (!$con)
 		{
-			echo "Sorry - database is temporarily unavailable"
+			echo "Sorry - database is temporarily unavailable";
 		}
     
     mysql_select_db($db);
