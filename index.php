@@ -107,7 +107,7 @@ include 'config/dbconnect.php';
 $nl = mysql_query("SELECT COUNT(*) AS linkcount FROM links_db");
 $numlinks = mysql_fetch_array($nl);
 
-mysql_close($con);
+//mysql_close($con);
 
 echo "<div id='headerright'><div id='headercount'><span>" . $numlinks['linkcount'] . "</span> links and growing</div>
 <form method='get' action='search.php' target='_self'>
@@ -134,7 +134,7 @@ $lotd++;
 }
 while ($row['link_name']=="" OR $row['status']!="");
 
-mysql_close($con);
+//mysql_close($con);
 
 if ($row['link_type']=="clinical_info")
 	{

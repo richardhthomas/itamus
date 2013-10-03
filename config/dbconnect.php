@@ -6,12 +6,7 @@
     $password = $url["pass"];
     $db = substr($url["path"],1);
 
-    $con = mysql_connect($server, $username, $password);
-	
-	if (!$con)
-		{
-			echo "Sorry - database is temporarily unavailable";
-		}
+    mysql_connect($server, $username, $password);
     
     mysql_select_db($db);
 ?>
