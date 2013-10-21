@@ -5,11 +5,11 @@ require 'PHPMailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 
 $mail->isSendmail();
-$mail->From = $_POST['Emailaddr'];
+$mail->setFrom = $_POST['Emailaddr'];
 $mail->FromName = $_POST['Fullname'];
 $mail->addAddress('richard.thomas@itamus.com', 'itamus.com');
 $mail->Subject = $_POST['subject'];
-$mail->Body    = $_POST['mesg'];
+$mail->Body = $_POST['mesg'];
 
 if(!$mail->send()) {
    echo 'Message could not be sent.';
