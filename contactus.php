@@ -54,6 +54,8 @@ Please provide an e-mail address so we can get back to you. Thanks.
 <div id="bbpageform">
 <form method="post" action="sendmail.php" name="Contactus">
 	<input type="hidden" name="subject" value="Contact us" />
+	<input type="hidden" name="good_url" value="contactsent.php" />
+	<input type="hidden" name="bad_url" value="emptysend.php" />
 	
 <table>
 <tr>

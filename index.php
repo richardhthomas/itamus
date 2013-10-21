@@ -304,14 +304,11 @@ echo "</table></div>";
 
 <div id="block6left">
 <p class="info">Please send us any extra links you feel should be on this site.</p>
-<form method="post" action="formmail.php" name="ExtraLink" target="_self">
-    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
-	<input type="hidden" name="recipients" value="info-squig-itamus.com" />
-	<input type="hidden" name="required" value="url:Web address" />
+<form method="post" action="sendmail.php" name="ExtraLink" target="_self">
 	<input type="hidden" name="subject" value="Extra Link" />
 	<input type="hidden" name="good_url" value="extralinksent.php" />
 	<input type="hidden" name="bad_url" value="emptysend.php" />
-<input class="indent40" type="text" name="url" size="24" value="Enter site name or address" onclick="this.value='';" />
+<input class="indent40" type="text" name="mesg" size="24" value="Enter site name or address" onclick="this.value='';" />
 <input type="submit" value="Send">
 </form>
 </div>

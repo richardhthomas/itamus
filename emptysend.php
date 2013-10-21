@@ -46,7 +46,7 @@
 </div>
 
 <div id="bbpagemsg">
-Unfortunately not enough details were entered. Please try again and enter all details before pressing the send button. Thank you.
+Unfortunately an error occured whilst trying to send your message. Please go back and try again. Thank you.
 </div>
 
 <div id="spacer">

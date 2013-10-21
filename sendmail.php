@@ -18,11 +18,12 @@ $mail->Subject = $_POST['subject'];
 $mail->Body = $_POST['mesg'];
 
 if(!$mail->send()) {
-   echo 'Message could not be sent.';
-   echo 'Mailer Error: ' . $mail->ErrorInfo;
-   exit;
+	$head = $_POST['bad_url'];
+	header("Location: $head");
+   	exit;
 }
 
-echo 'Message has been sent';
+$head = $_POST['good_url'];
+header("Location: $head");
 
 ?>
