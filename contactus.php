@@ -52,13 +52,8 @@ Please provide an e-mail address so we can get back to you. Thanks.
 </div>
 
 <div id="bbpageform">
-<form method="post" action="formmail.php" name="Contactus">
-    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
-	<input type="hidden" name="recipients" value="info-squig-itamus.com" />
-	<input type="hidden" name="required" value="Fullname:Your name,Emailaddr:Email address,mesg:A message" />
+<form method="post" action="sendmail.php" name="Contactus">
 	<input type="hidden" name="subject" value="Contact us" />
-	<input type="hidden" name="good_url" value="contactsent.php" />
-	<input type="hidden" name="bad_url" value="emptysend.php" />
 	
 <table>
 <tr>
