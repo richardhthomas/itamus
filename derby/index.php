@@ -79,7 +79,7 @@ foreach ($stmt as $row)
 		}
 	else
 		{
-		if ($row['link']!=NULL AND $row['link']!="")
+		if ($row['link']!=NULL AND $row['link']!="" AND $row['link']!="NULL")
 			{
 			echo "<td><a class='search' href='" . $row['link'] . "' target='_blank'>" . $row['name'] . "</a></td>";
 			}
