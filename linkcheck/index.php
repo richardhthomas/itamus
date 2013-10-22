@@ -22,28 +22,12 @@ $query = "SELECT id,link_name,link_destination,status FROM links_db";
 
 $result = mysql_query($query);
 
-mysql_close($con);
-
 while($row = mysql_fetch_array($result))
   {
   echo "<li><a href='" . $row['link_destination'] . "'>" . $row['status'] . " " . $row['id'] . " " . $row['link_name'] . "</a></li>";
   }
 
-
 // check Derby section of site
-
-$dbuser = "locum";
-$dbpasswd = "Trundl37";
-
-// Connect to database
-$con = @mysql_connect("localhost:3306",$dbuser,$dbpasswd,FALSE,MYSQL_CLIENT_INTERACTIVE);
-if (!$con)
-	{
-	die("");
-	}
-  
-mysql_select_db("locum", $con);
-
 $query = "SELECT id,name,link,status FROM derby";
 
 $result = mysql_query($query);
