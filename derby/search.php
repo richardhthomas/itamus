@@ -75,7 +75,7 @@ foreach ($stmt as $row)
 		}
 	else
 		{
-		if ($row['link']!=NULL AND $row['link']!="")
+		if ($row['link']!=NULL AND $row['link']!="" AND $row['link']!="NULL")
 			{
 			echo "<td><a class='search' href='" . $row['link'] . "' target='_blank'>" . ucfirst($row['name']) . "</a></td>";
 			}
@@ -84,11 +84,11 @@ foreach ($stmt as $row)
 			echo "<td class='search'>" . ucfirst($row['name']) . "</td>";
 			}
 		}
-	if ($row['phone'] == NULL) {
+	if ($row['phone'] == NULL OR $row['phone']=="NULL") {
 		$row['phone'] = "";
 	}
 	echo "<td>" . $row['phone'] . "</td>";
-	if ($row['details'] == NULL) {
+	if ($row['details'] == NULL OR $row['details']=="NULL") {
 		$row['details'] = "";
 	}
 	echo "<td>" . ucfirst($row['details']) . "</td>";
