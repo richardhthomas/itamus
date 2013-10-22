@@ -80,7 +80,13 @@ foreach ($stmt as $row)
 		{
 		echo "<td class='search'>" . ucfirst($row['name']) . "</td>";
 		}
+	if ($row['phone'] == NULL) {
+		$row['phone'] = "";
+	}
 	echo "<td>" . $row['phone'] . "</td>";
+	if ($row['details'] == NULL) {
+		$row['details'] = "";
+	}
 	echo "<td>" . ucfirst($row['details']) . "</td>";
 	echo "</tr>";
 	}
