@@ -131,6 +131,7 @@ $query = "SELECT link_name,link_destination,description,link_type,status FROM li
 $result = mysql_query($query);
 $row = mysql_fetch_array($result);
 $lotd++;
+$lotd_adminium = $lotd_adminium + 10;
 }
 while ($row['link_name']=="" OR $row['status']!="");
 
