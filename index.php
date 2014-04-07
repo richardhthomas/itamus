@@ -243,10 +243,10 @@ echo "</table></div>";
 </div>
 
 <div class="examples">
-<a href="http://www.nhsemployers.org/Aboutus/Publications/Documents/qof-2013-14.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2013/14', 'frontpage']);">QoF for 2013/14 /</a><br />
-<a href="http://www.nhsemployers.org/SiteCollectionDocuments/Summary_of_changes_to_QOF_2013-14_ja220413.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2013/14 summary of changes', 'frontpage']);">summary</a><br />
+<a href="http://www.nhsemployers.org/Aboutus/Publications/Documents/2014-15-QOF-guidance-stakeholders.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15', 'frontpage']);">QoF for 2014/15 /</a><br />
+<a href="http://www.nhsemployers.org/SiteCollectionDocuments/2014_15_Summary_of_QOF_changes_mh141113.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15 summary of changes', 'frontpage']);">summary</a><br />
 <div class="spacer5"></div>
-<a href="http://www.pcc-cic.org.uk/article/qof-business-rules-v26" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF business rules v26', 'frontpage']);">QoF business rules</a><br />
+<a href="http://www.pcc-cic.org.uk/article/qof-business-rules-v27" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF business rules v27', 'frontpage']);">QoF business rules</a><br />
 <div class="spacer5"></div>
 <a href="http://www.hpa.org.uk/Topics/InfectiousDiseases/InfectionsAZ/NotificationsOfInfectiousDiseases/ListOfNotifiableDiseases/" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'Notifiable diseases', 'frontpage']);">Notifiable diseases</a><br />
 <div class="spacer5"></div>
