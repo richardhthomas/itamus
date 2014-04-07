@@ -227,7 +227,7 @@ echo "</table></div>";
 <a href="http://www.britishsnoring.co.uk/sleep_apnoea/epworth_sleepiness_scale.php" onClick="_gaq.push(['_trackEvent', 'scoring_systems', 'Epworth (online)', 'frontpage']);">Epworth score /</a><br />
 <a href="http://barrythompsonmd.com/wp-content/uploads/2009/10/Epworth-Sleepiness-Scale.pdf" onClick="_gaq.push(['_trackEvent', 'scoring_systems', 'Epworth (pdf)', 'frontpage']);">as pdf</a><br />
 <div class="spacer5"></div>
-<a href="http://www.surreyhealth.nhs.uk/dcp/Documents/D1.3d2.pdf" onClick="_gaq.push(['_trackEvent', 'scoring_systems', 'HAD', 'frontpage']);">HAD</a><br />
+<a href="http://www.eyetestnow.com/images/snellen_block_letter_eye_chart_eye_exam_test.pdf" onClick="_gaq.push(['_trackEvent', 'scoring_systems', 'Snellen chart', 'frontpage']);">Snellen chart</a><br />
 </div>
 
 <div class="more">
