@@ -243,7 +243,7 @@ echo "</table></div>";
 </div>
 
 <div class="examples">
-<a href="http://www.nhsemployers.org/~/media/Employers/Documents/PCC/QOF/2014-15%20General%20Medical%20Services%20contract%20-%20%20Quality%20and%20Outcomes%20Framework%20-%20Guidannce%20for%20GMS%20contract%202014-15.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15', 'frontpage']);">QoF for 2014/15 /</a><br />
+<a href="http://www.nhsemployers.org/~/media/Employers/Documents/Primary%20care%20contracts/QOF/2014-15/2014-15%20General%20Medical%20Services%20contract%20-%20%20Quality%20and%20Outcomes%20Framework%20-%20Guidannce%20for%20GMS%20contract%202014-15.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15', 'frontpage']);">QoF for 2014/15 /</a><br />
 <a href="http://www.nhsemployers.org/~/media/Employers/Documents/Primary%20care%20contracts/QOF/2014-15/Summary%20of%20changes%20to%20QOF%202014-15%20-%20England%20only.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15 summary of changes', 'frontpage']);">summary</a><br />
 <div class="spacer5"></div>
 <a href="http://www.pcc-cic.org.uk/article/qof-business-rules-v27" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF business rules v27', 'frontpage']);">QoF business rules</a><br />
