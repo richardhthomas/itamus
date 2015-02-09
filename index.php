@@ -244,7 +244,7 @@ echo "</table></div>";
 
 <div class="examples">
 <a href="http://www.nhsemployers.org/~/media/Employers/Publications/2014%2015%20QOF%20guidance%20stakeholders.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15', 'frontpage']);">QoF for 2014/15 /</a><br />
-<a href="http://www.nhsemployers.org/~/media/Employers/Documents/Primary%20care%20contracts/QOF/2014-15/Summary%20of%20changes%20to%20QOF%202014-15%20-%20England%20only.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15 summary of changes', 'frontpage']);">summary</a><br />
+<a href="http://www.nbmedical.com/pdf/keep_simple_qof_2014.pdf" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF 2014/15 summary of changes', 'frontpage']);">summary</a><br />
 <div class="spacer5"></div>
 <a href="http://www.hscic.gov.uk/qofbrv30" onClick="_gaq.push(['_trackEvent', 'contracts_regs', 'QoF business rules', 'frontpage']);">QoF business rules</a><br />
 <div class="spacer5"></div>
