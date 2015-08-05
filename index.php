@@ -125,71 +125,72 @@ $lotd_adminium = (($lotd-1)*10)+1; // this corrects for adminiums id's increment
 
 // get the row from the links database with a id number equal to $lotd. If this is blank then add 1 to $lotd and try again until it contains something
 
-do
-{
-$query = "SELECT link_name,link_destination,description,link_type,status FROM links_db WHERE id=" . $lotd_adminium;
-$result = mysql_query($query);
-$row = mysql_fetch_array($result);
-$lotd++;
-$lotd_adminium = $lotd_adminium + 10;
-}
-while ($row['link_name']=="" OR $row['status']!="");
+//do
+//{
+//$query = "SELECT link_name,link_destination,description,link_type,status FROM links_db WHERE id=" . $lotd_adminium;
+//$result = mysql_query($query);
+//$row = mysql_fetch_array($result);
+//$lotd++;
+//$lotd_adminium = $lotd_adminium + 10;
+//}
+//while ($row['link_name']=="" OR $row['status']!="");
 
-mysql_close($con);
+//mysql_close($con);
 
-if ($row['link_type']=="clinical_info")
-	{
-	$bgc = "#FFE6E6";
-	$fc = "#CC0000";
-	}
-elseif ($row['link_type']=="scoring_systems")
-	{
-	$bgc = "#E6FAE6";
-	$fc = "#008C00";
-	}
-elseif ($row['link_type']=="contracts_regs")
-	{
-	$bgc = "#FFFFBF";
-	$fc = "#8C8C00";
-	}
-elseif ($row['link_type']=="for_patients")
-	{
-	$bgc = "#E6E6FF";
-	$fc = "#0000FF";
-	}
-else
-	{
-	$bgc = "#F0E8D9";
-	$fc = "#543800";
-	}
+//if ($row['link_type']=="clinical_info")
+//	{
+//	$bgc = "#FFE6E6";
+//	$fc = "#CC0000";
+//	}
+//elseif ($row['link_type']=="scoring_systems")
+//	{
+//	$bgc = "#E6FAE6";
+//	$fc = "#008C00";
+//	}
+//elseif ($row['link_type']=="contracts_regs")
+//	{
+//	$bgc = "#FFFFBF";
+//	$fc = "#8C8C00";
+//	}
+//elseif ($row['link_type']=="for_patients")
+//	{
+//	$bgc = "#E6E6FF";
+//	$fc = "#0000FF";
+//	}
+//else
+//	{
+//	$bgc = "#F0E8D9";
+//	$fc = "#543800";
+//	}
 
-echo "<div id='lotdtab'>
-<table style='background-color:" . $bgc . ";'>";
+//echo "<div id='lotdtab'>
+//<table style='background-color:" . $bgc . ";'>";
 	
-  echo "<tr>";
-  echo "<td class='lotd'>Link of the day</td>";
-  echo "<td><a style='color:" . $fc . ";' href='" . $row['link_destination'] . "' onClick=\"_gaq.push(['_trackEvent', '" . $row['link_type'] . "', '" . $row['link_name'] . "', 'lotd']);\">" . $row['link_name'] . "</a></td>";
-  echo "<td>" . $row['description'] . "</td>";
-  echo "</tr>";
+//  echo "<tr>";
+//  echo "<td class='lotd'>Link of the day</td>";
+//  echo "<td><a style='color:" . $fc . ";' href='" . $row['link_destination'] . "' onClick=\"_gaq.push(['_trackEvent', '" . $row['link_type'] . "', '" . $row['link_name'] . "', 'lotd']);\">" . $row['link_name'] . "</a></td>";
+//  echo "<td>" . $row['description'] . "</td>";
+//  echo "</tr>";
 
-echo "</table></div>";
+//echo "</table></div>";
 
 ?>
 
-<!--
+
 <div id='msfad'>
 <table>
 	<tr>
-		<td class="msflink"><a href="/msf/index.php" target="_self" onClick="_gaq.push(['_trackEvent', 'msf', 'index.php']);">New FREE online multi-source feedback tool
-		<br />
-		Using the GMC MSF questionnaire - perfect for your appraisal
-		<br/>
-		Click here to find out more and access for FREE </a>
+		<td class="msflink">
+			*** WARNING ***
+			<br />
+			itamus.com will be unavailable on 8th and 9th of August
+			<br />
+			On its return it will be even nicer than it is now...
 		</td>
 	</tr>
 </table>
 </div>
--->
+
 
 <div id="block1">
 <div class="title">
